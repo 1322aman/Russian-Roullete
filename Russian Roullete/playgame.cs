@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -24,7 +26,13 @@ namespace Russian_Roullete
             button_spin.Enabled = true;//enables the spin button
             button_load.Enabled = false;//enables the load button
             //gif player
-            imagegifplayer.Image = Image.FromFile(@"C:\Users\sukhd\Desktop\Russian Roullete\media\load.gif");
+            Assembly AssemObj = Assembly.GetExecutingAssembly();
+            Stream StreamObj1 = AssemObj.GetManifestResourceStream("Russian_Roullete.Resources.load.gif");
+            Bitmap bmpObj = new Bitmap(StreamObj1);
+            imagegifplayer.Image = bmpObj;
+
+            
+
         }
 
         private void button_spin_Click(object sender, EventArgs e)
@@ -32,17 +40,22 @@ namespace Russian_Roullete
             masterobj.Gunspin = random.Next(1, 6);
             button_shoot.Enabled = true;// enables the shoot button
             button_spin.Enabled = false;// enables the load button
-            //gifplayer
+                                        //gifplayer
+            Assembly AssemObj = Assembly.GetExecutingAssembly();
+            Stream StreamObj = AssemObj.GetManifestResourceStream("Russian_Roullete.Resources.blank.gif");
+            Bitmap bmpObj = new Bitmap(StreamObj);
+            imagegifplayer.Image = bmpObj;
 
-            
         }
 
         private void button_shoot_Click(object sender, EventArgs e)
         {
-            imagegifplayer.Image = Image.FromFile(@"C:\Users\sukhd\Desktop\Russian Roullete\media\shoot.gif");
-            //gifplayer
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\sukhd\Desktop\Russian Roullete\media\shoot.wav");
-            player.Play();
+            Assembly AssemObj = Assembly.GetExecutingAssembly();
+            Stream StreamObj = AssemObj.GetManifestResourceStream("Russian_Roullete.Resources.shoot.gif");
+            Bitmap bmpObj = new Bitmap(StreamObj);
+            imagegifplayer.Image = bmpObj;  //gifplayer
+            System.Media.SoundPlayer sndObj = new System.Media.SoundPlayer(Russian_Roullete.Properties.Resources.shoot1);
+            sndObj.Play();
             int shootaway = masterobj.Shootbullete();
             if (shootaway == 1)//it is a if statement runs only if 
             {
@@ -67,7 +80,8 @@ namespace Russian_Roullete
         private void button_shootaway_Click(object sender, EventArgs e)
         {
             int winloss= masterobj.Shootaway();
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\sukhd\Desktop\Russian Roullete\media\shoot.wav");
+            System.Media.SoundPlayer sndObj = new System.Media.SoundPlayer(Russian_Roullete.Properties.Resources.shoot1);
+            sndObj.Play();
 
             if (winloss == 10)//it is a if statement runs only if
             {

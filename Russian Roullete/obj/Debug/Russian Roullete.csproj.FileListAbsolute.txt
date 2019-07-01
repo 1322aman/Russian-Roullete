@@ -1,0 +1,22 @@
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\bin\Debug\Russian Roullete.exe.config
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\bin\Debug\Russian Roullete.exe
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\bin\Debug\Russian Roullete.pdb
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.csprojAssemblyReference.cache
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\obj\Debug\Russian_Roullete.Welcome.resources
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\obj\Debug\Russian_Roullete.playgame.resources
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\obj\Debug\Russian_Roullete.Properties.Resources.resources
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.csproj.GenerateResource.cache
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.csproj.CoreCompileInputs.cache
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.exe
+C:\Users\sunny\source\repos\russian rollete 2\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.pdb
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\bin\Debug\Russian Roullete.exe.config
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\bin\Debug\Russian Roullete.exe
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\bin\Debug\Russian Roullete.pdb
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\obj\Debug\Russian_Roullete.Welcome.resources
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\obj\Debug\Russian_Roullete.playgame.resources
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\obj\Debug\Russian_Roullete.Properties.Resources.resources
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.csproj.GenerateResource.cache
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.csproj.CoreCompileInputs.cache
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.exe
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.pdb
+C:\Users\sukhd\Desktop\Russian Roullete\Russian Roullete\Russian Roullete\obj\Debug\Russian Roullete.csprojAssemblyReference.cache
